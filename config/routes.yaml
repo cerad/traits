@@ -5,3 +5,7 @@ index:
 test:
     path: /test
     controller: App\Controller\DefaultController::index
+
+user_register:
+    path: /register
+    controller: App\User\Register\UserRegisterAction

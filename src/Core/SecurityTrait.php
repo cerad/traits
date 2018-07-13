@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Core;
-
+namespace Cerad\Core;
 
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;

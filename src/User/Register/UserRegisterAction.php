@@ -9,7 +9,13 @@
 namespace App\User\Register;
 
 
-class UserRegisterAction
-{
+use Cerad\Core\ActionInterface;
+use Symfony\Component\HttpFoundation\Response;
 
+class UserRegisterAction implements ActionInterface
+{
+    public function __invoke(UserRegisterForm $form)
+    {
+        return new Response($form->render());
+    }
 }

@@ -2,9 +2,10 @@
 
 namespace App\Action;
 
+use Cerad\Core\ActionInterface;
+use Cerad\Core\RouterTrait;
+use Cerad\Core\SecurityTrait;
 
-use App\Core\RouterTrait;
-use App\Core\SecurityTrait;
 use Symfony\Component\HttpFoundation\Response;
 
 class IndexAction implements ActionInterface

@@ -6,7 +6,7 @@
  * Time: 9:32 AM
  */
 
-namespace App\Core;
+namespace Cerad\Core;
 
 
 use Symfony\Component\HttpFoundation\RedirectResponse;

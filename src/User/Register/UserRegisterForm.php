@@ -9,7 +9,15 @@
 namespace App\User\Register;
 
 
+use Cerad\Core\RouterTrait;
+
 class UserRegisterForm
 {
+    use RouterTrait;
 
+    public function render() : string
+    {
+        $url = $this->generateUrl('test');
+        return 'Register ' . $url;
+    }
 }

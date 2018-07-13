@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 
-use App\Core\RouterTrait;
+use Cerad\Core\RouterTrait;
 use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController

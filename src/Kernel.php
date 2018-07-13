@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\Action\ActionInterface;
+use Cerad\Core\ActionInterface;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\Config\Resource\FileResource;
